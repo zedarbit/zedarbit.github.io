@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>摸鱼 on Clarity</title>
+    <link>https://zedarbit.github.io/tags/%E6%91%B8%E9%B1%BC/</link>
+    <description>Recent content in 摸鱼 on Clarity</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
+    <lastBuildDate>Mon, 01 Feb 2021 23:00:01 +0800</lastBuildDate><atom:link href="https://zedarbit.github.io/tags/%E6%91%B8%E9%B1%BC/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo &#43; Github =&gt; myblog</title>
+      <link>https://zedarbit.github.io/post/placeholder-text/</link>
+      <pubDate>Mon, 01 Feb 2021 23:00:01 +0800</pubDate>
+      
+      <guid>https://zedarbit.github.io/post/placeholder-text/</guid>
+      <description>
+        
+          &lt;h3 id=&#34;如何使用hugo生成静态博客并部署至github&#34;&gt;如何使用hugo生成静态博客并部署至Github&lt;/h3&gt;
+
+        
+      </description>
+    </item>
+    
+  </channel>
+</rss>

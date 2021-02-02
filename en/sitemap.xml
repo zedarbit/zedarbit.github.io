@@ -18,6 +18,111 @@
   </url>
   
   <url>
+    <loc>https://zedarbit.github.io/categories/</loc>
+    <lastmod>2021-02-01T23:00:01+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://zedarbit.github.io/pt/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zedarbit.github.io/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zedarbit.github.io/tags/css/</loc>
+    <lastmod>2021-02-01T23:00:01+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://zedarbit.github.io/pt/tags/css/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zedarbit.github.io/tags/css/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zedarbit.github.io/tags/emoji/</loc>
+    <lastmod>2021-02-01T23:00:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zedarbit.github.io/post/emoji-support/</loc>
+    <lastmod>2021-02-01T23:00:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zedarbit.github.io/tags/featured/</loc>
+    <lastmod>2021-02-01T23:00:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zedarbit.github.io/tags/html/</loc>
+    <lastmod>2021-02-01T23:00:01+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://zedarbit.github.io/pt/tags/html/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zedarbit.github.io/tags/html/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zedarbit.github.io/post/placeholder-text/</loc>
+    <lastmod>2021-02-01T23:00:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zedarbit.github.io/tags/idea/</loc>
+    <lastmod>2021-02-01T23:00:01+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://zedarbit.github.io/tags/markdown/</loc>
+    <lastmod>2021-02-01T23:00:01+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://zedarbit.github.io/pt/tags/markdown/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zedarbit.github.io/tags/markdown/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zedarbit.github.io/post/markdown-syntax/</loc>
+    <lastmod>2021-02-01T23:00:01+08:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="https://zedarbit.github.io/pt/post/markdown-syntax/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://zedarbit.github.io/post/markdown-syntax/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://zedarbit.github.io/post/math-typesetting/</loc>
+    <lastmod>2021-02-01T23:00:01+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zedarbit.github.io/post/</loc>
     <lastmod>2021-02-01T23:00:01+08:00</lastmod>
     <xhtml:link
@@ -33,98 +138,8 @@
   </url>
   
   <url>
-    <loc>https://zedarbit.github.io/post/test/</loc>
-    <lastmod>2021-02-01T23:00:01+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zedarbit.github.io/archives/</loc>
-    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zedarbit.github.io/categories/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://zedarbit.github.io/pt/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zedarbit.github.io/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://zedarbit.github.io/tags/css/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://zedarbit.github.io/pt/tags/css/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zedarbit.github.io/tags/css/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://zedarbit.github.io/tags/featured/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zedarbit.github.io/tags/html/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://zedarbit.github.io/pt/tags/html/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zedarbit.github.io/tags/html/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://zedarbit.github.io/tags/markdown/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://zedarbit.github.io/pt/tags/markdown/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zedarbit.github.io/tags/markdown/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://zedarbit.github.io/post/markdown-syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://zedarbit.github.io/pt/post/markdown-syntax/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zedarbit.github.io/post/markdown-syntax/"
-                />
-  </url>
-  
-  <url>
     <loc>https://zedarbit.github.io/series/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-01T23:00:01+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -139,12 +154,12 @@
   
   <url>
     <loc>https://zedarbit.github.io/categories/syntax/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-01T23:00:01+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://zedarbit.github.io/tags/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-01T23:00:01+08:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="pt"
@@ -158,58 +173,37 @@
   </url>
   
   <url>
+    <loc>https://zedarbit.github.io/post/test/</loc>
+    <lastmod>2021-02-01T23:00:01+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://zedarbit.github.io/tags/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-01T23:00:01+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://zedarbit.github.io/categories/themes/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-01T23:00:01+08:00</lastmod>
   </url>
   
   <url>
     <loc>https://zedarbit.github.io/series/themes-guide/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2021-02-01T23:00:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zedarbit.github.io/post/placeholder-text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+    <loc>https://zedarbit.github.io/tags/%E6%91%B8%E9%B1%BC/</loc>
+    <lastmod>2021-02-01T23:00:01+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zedarbit.github.io/tags/text/</loc>
-    <lastmod>2019-03-09T00:00:00+00:00</lastmod>
+    <loc>https://zedarbit.github.io/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://zedarbit.github.io/post/math-typesetting/</loc>
-    <lastmod>2019-03-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zedarbit.github.io/tags/emoji/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zedarbit.github.io/post/emoji-support/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://zedarbit.github.io/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="https://zedarbit.github.io/pt/about/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://zedarbit.github.io/about/"
-                />
+    <loc>https://zedarbit.github.io/post/archives/</loc>
   </url>
   
   <url>
