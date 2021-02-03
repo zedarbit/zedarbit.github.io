@@ -180,93 +180,90 @@
   </div>
 
     
-    <h3 id="如何使用hugo生成静态博客并部署至github">如何使用hugo生成静态博客并部署至Github</h3>
-    <h1>如何使用hugo生成静态博客并部署至Github</h1>
-<h3>准备环境</h3>
-<p>一开始试了Hexo,需要下载的东西比较多</p>
-<h4>Node.js和Git</h4>
-<p>Node.js用来使用npm,git用来输命令行,那实际上Hugo应该是都不用,但我已经下载好,就顺着Git bash使。</p>
-<h4>Hugo</h4>
-<p>新建一个Hugo文件夹,下属两个site,bin文件夹.</p>
-<p>在官网上下载,不需顾虑下在哪里.下载完成后,解压安装包里在bin里.<strong>添加bin的路径到环境变量Path,两个都要</strong></p>
-<ul>
-<li><p>此时可打开shell/git bash here, 切换至Hugo文件夹,</p>
-<pre><code class='language-cmd' lang='cmd'>hugo version //验证是否安装成功
-</code></pre>
-</li>
-<li><p>在Hugo目录下,输入命令</p>
-<pre><code class='language-powershell' lang='powershell'>hugo new site zedarbit
-</code></pre>
-</li>
-<li><p>生成了一个文件夹,用于存放blog需要的文件</p>
-<blockquote><ul>
-<li>archetypes　(存放default.md，头文件格式，每次新建文章默认显示的头部信息在此修改)</li>
-<li>content 　　 (存放博客文章，markdown格式文件)</li>
-<li>data              (存放自定义或者导入的模板)</li>
-<li>layouts          (存放网站的数据模板)</li>
-<li>static             (存放图片、css、js等静态资源)</li>
-<li>themes         (存放主题文件，每个主题都是一个独立的文件夹)</li>
-<li>config.toml    (网站配置文件)</li>
-
-</ul>
-</blockquote>
-</li>
-
-</ul>
-<ul>
-<li><p>下载主题,切换至themes目录下,网站里面有教程</p>
-<p><img src='file://C:/Users/dell/AppData/Local/Temp/1612313933703.png' alt='1612313933703' referrerPolicy='no-referrer' /></p>
-</li>
-
-</ul>
-<pre><code class='language-powshell' lang='powshell'>git init
-git submodule add https://github.com/chipzoller/hugo-clarity themes/hugo-clarity
-cp -a themes/hugo-clarity/exampleSite/* .
-</code></pre>
-<ul>
-<li>之后就可以hugo server 了,生成的网站可以在 localhost:1313/上查看.</li>
-
-</ul>
-<h4>+Github</h4>
-<ul>
-<li>新建仓库,命名为zedarbit.github.io,不用生成readme,直接public就create.</li>
-<li>在blog目录下输入命令:</li>
-
-</ul>
-<pre><code class='language-powershell' lang='powershell'>hugo
-</code></pre>
-<ul>
-<li><p>获得一个public文件夹,里面就是应该push到GitHub的东西.</p>
-</li>
-<li><p>新建一个和blog平级的文件夹,zedarbit.github.io(随便叫什么),用来存放和GitHub沟通的东西,把public里的文件copy一份到该文件夹</p>
-</li>
-<li><p>切换至zedarbit.github.io</p>
-<pre><code class='language-powershell' lang='powershell'>git init
-git add .
-git commit -m &quot;commit message&quot;
-git remote add origin https://github.com/zedarbit/zedarbit.github.io.git
-git push -u origin master  //push进去就可以了
-
-//如果遇到了remote exist的情况,删库跑路,之后再push
-git remote rm origin
-</code></pre>
-<h4>更新博客</h4>
-</li>
-<li><p>可以将md写在post目录下,之后重新生成public,把新的zedarbit.github.io push进GitHub中, </p>
-</li>
-
-</ul>
-<p>看到master下的有更新,就算是成了----<strong>适合新增文档</strong></p>
-<ul>
-<li><p>也可以在GitHub的后台直接改,copy下代码,然后在typora上写,保存成HTML格式,替换代码里的内容部分,应该也🆗,但应该不能新增,只能后修改----<strong>适合小改动</strong></p>
-<h4>参考博客和链接</h4>
-<p><a href='https://www.cnblogs.com/zoelius/p/11424333.html'>Windows+hugo+github建立个人博客</a> </p>
-<p><a href='https://blog.csdn.net/weixin_43269020/article/details/82865542'>Hugo搭建个人博客</a></p>
-</li>
-
-</ul>
-<p>      <a href='https://themes.gohugo.io/hugo-clarity/'>clarify的主题页面</a></p>
-<p>      <a href='https://zedarbit.github.io/'>爷的网站</a></p>
+      <h1 data-breakpage>如何使用hugo生成静态博客并部署至Github</h1>
+    <h3>准备环境</h3>
+    <p>一开始试了Hexo,需要下载的东西比较多</p>
+    <h4><strong>Node.js和Git</strong></h4>
+    <p>Node.js用来使用npm,git用来输命令行,那实际上Hugo应该是都不用,但我已经下载好,就顺着Git bash使。</p>
+    <h4><strong>Hugo</strong></h4>
+    <p>新建一个Hugo文件夹,下属两个site,bin文件夹.</p>
+    <p>在官网上下载,不需顾虑下在哪里.下载完成后,解压安装包里在bin里.<strong>添加bin的路径到环境变量Path,两个都要</strong></p>
+    <ul>
+    <li><p>此时可打开shell/git bash here, 切换至Hugo文件夹,</p>
+    <pre><code class='language-cmd' lang='cmd'>hugo version //验证是否安装成功
+    </code></pre>
+    </li>
+    <li><p>在Hugo目录下,输入命令</p>
+    <pre><code class='language-powershell' lang='powershell'>hugo new site zedarbit
+    </code></pre>
+    </li>
+    <li><p>生成了一个文件夹,用于存放blog需要的文件</p>
+    <blockquote><ul>
+    <li>archetypes　(存放default.md，头文件格式，每次新建文章默认显示的头部信息在此修改)</li>
+    <li>content 　　 (存放博客文章，markdown格式文件)</li>
+    <li>data              (存放自定义或者导入的模板)</li>
+    <li>layouts          (存放网站的数据模板)</li>
+    <li>static             (存放图片、css、js等静态资源)</li>
+    <li>themes         (存放主题文件，每个主题都是一个独立的文件夹)</li>
+    <li>config.toml    (网站配置文件)</li>
+    
+    </ul>
+    </blockquote>
+    </li>
+    <li><p>下载主题,切换至themes目录下,网站里面有教程</p>
+    <p><img src='file://C:/Users/dell/AppData/Local/Temp/1612313933703.png' alt='1612313933703' referrerPolicy='no-referrer' /></p>
+    </li>
+    
+    </ul>
+    <pre><code class='language-powshell' lang='powshell'>git init
+    git submodule add https://github.com/chipzoller/hugo-clarity themes/hugo-clarity
+    cp -a themes/hugo-clarity/exampleSite/* .
+    </code></pre>
+    <ul>
+    <li>之后就可以hugo server 了,生成的网站可以在 localhost:1313/上查看.</li>
+    
+    </ul>
+    <h4><strong>+Github</strong></h4>
+    <ul>
+    <li>新建仓库,命名为zedarbit.github.io,不用生成readme,直接public就create.</li>
+    <li>在blog目录下输入命令:</li>
+    
+    </ul>
+    <pre><code class='language-powershell' lang='powershell'>hugo
+    </code></pre>
+    <ul>
+    <li><p>获得一个public文件夹,里面就是应该push到GitHub的东西.</p>
+    </li>
+    <li><p>新建一个和blog平级的文件夹,zedarbit.github.io(随便叫什么),用来存放和GitHub沟通的东西,把public里的文件copy一份到该文件夹</p>
+    </li>
+    <li><p>切换至zedarbit.github.io</p>
+    <pre><code class='language-powershell' lang='powershell'>git init
+    git add .
+    git commit -m &quot;commit message&quot;
+    git remote add origin https://github.com/zedarbit/zedarbit.github.io.git
+    git push -u origin master  //push进去就可以了
+    
+    //如果遇到了remote exist的情况,删库跑路,之后再push
+    git remote rm origin
+    </code></pre>
+    <h4><strong>更新博客</strong></h4>
+    </li>
+    <li><p>可以将md写在post目录下,之后重新生成public,把新的zedarbit.github.io push进GitHub中, </p>
+    </li>
+    
+    </ul>
+    <p>看到master下的有更新,就算是成了----<strong>适合新增文档</strong></p>
+    <ul>
+    <li><p>也可以在GitHub的后台直接改,copy下代码,然后在typora上写,保存成HTML格式,替换代码里的内容部分,应该也🆗,但应该不能新增,只能后修改----<strong>适合小改动</strong></p>
+    <h4><strong>参考博客和链接</strong></h4>
+    <p><a href='https://www.cnblogs.com/zoelius/p/11424333.html'>Windows+hugo+github建立个人博客</a> </p>
+    <p><a href='https://blog.csdn.net/weixin_43269020/article/details/82865542'>Hugo搭建个人博客</a></p>
+    </li>
+    
+    </ul>
+    <p>​<a href='https://themes.gohugo.io/hugo-clarity/'>clarify的主题页面</a></p>
+    <p>​<a href='https://zedarbit.github.io/'>爷的网站</a></p>
+    <p>&nbsp;</p>
 
  
     
