@@ -20,13 +20,13 @@
 <meta property="og:locale:alternate" content="pt" />
 
 <meta property="og:type" content="article">
-<meta name="description" content="Sample article showcasing basic Markdown syntax and formatting for HTML elements.">
+<meta name="description" content="MySQLCH2--常用子句">
 <meta name="twitter:card" content="summary" />
 <meta name="twitter:creator" content="">
-<meta name="twitter:title" content="Markdown Syntax Guide" />
-<meta property="og:url" content="https://zedarbit.github.io/post/markdown-syntax/" />
-<meta property="og:title" content="Markdown Syntax Guide" />
-<meta property="og:description" content="Sample article showcasing basic Markdown syntax and formatting for HTML elements." />
+<meta name="twitter:title" content="SQL学习笔记之常用子句" />
+<meta property="og:url" content="https://zedarbit.github.io/post/MySQLCH2/" />
+<meta property="og:title" content="MySQLCH2--常用子句" />
+<meta property="og:description" content="SQL学习笔记之常用子句" />
 <meta property="og:image" content="https://zedarbit.github.io/images/building.png" />
 <link rel="apple-touch-icon" sizes="180x180" href='https://zedarbit.github.io/icons/apple-touch-icon.png'>
 <link rel="icon" type="image/png" sizes="32x32" href='https://zedarbit.github.io/icons/favicon-32x32.png'>
@@ -149,7 +149,7 @@
   <use xlink:href="#calendar"></use>
 </svg>
     <span class="post_date">
-      Feb 1, 2021</span>
+      Apr 5, 2021</span>
       <a href='https://zedarbit.github.io/tags/markdown' class="post_tag button button_translucent">markdown
       </a>
       <a href='https://zedarbit.github.io/tags/css' class="post_tag button button_translucent">css
@@ -188,158 +188,118 @@
   </div>
 
     
-    <p>[使用指南]
-This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.</p>
-<h2 id="headings">Headings</h2>
-<p>The following HTML <code>&lt;h1&gt;</code>—<code>&lt;h6&gt;</code> elements represent six levels of section headings. <code>&lt;h1&gt;</code> is the highest section level while <code>&lt;h6&gt;</code> is the lowest.</p>
-<h1 id="h1">H1</h1>
-<h2 id="h2">H2</h2>
-<h3 id="h3">H3</h3>
-<h4 id="h4">H4</h4>
-<h5 id="h5">H5</h5>
-<h6 id="h6">H6</h6>
-<h2 id="paragraph">Paragraph</h2>
-<p>Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptionse latur sitiae dolessi aut parist aut dollo enim qui voluptate ma dolestendit peritin re plis aut quas inctum laceat est volestemque commosa as cus endigna tectur, offic to cor sequas etum rerum idem sintibus eiur? Quianimin porecus evelectur, cum que nis nust voloribus ratem aut omnimi, sitatur? Quiatem. Nam, omnis sum am facea corem alique molestrunt et eos evelece arcillit ut aut eos eos nus, sin conecerem erum fuga. Ri oditatquam, ad quibus unda veliamenimin cusam et facea ipsamus es exerum sitate dolores editium rerore eost, temped molorro ratiae volorro te reribus dolorer sperchicium faceata tiustia prat.</p>
-<p>Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.</p>
-<h2 id="blockquotes">Blockquotes</h2>
-<p>The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a <code>footer</code> or <code>cite</code> element, and optionally with in-line changes such as annotations and abbreviations.</p>
-<h4 id="blockquote-without-attribution">Blockquote without attribution</h4>
-<blockquote>
-<p>Tiam, ad mint andaepu dandae nostion secatur sequo quae.
-<strong>Note</strong> that you can use <em>Markdown syntax</em> within a blockquote.</p>
-</blockquote>
-<h4 id="blockquote-with-attribution">Blockquote with attribution</h4>
-<blockquote>
-<p>Don't communicate by sharing memory, share memory by communicating.<br>
-— <cite>Rob Pike<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></cite></p>
-</blockquote>
-<h2 id="tables">Tables</h2>
-<p>Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.</p>
-<table>
-<thead>
-<tr>
-<th>Name</th>
-<th>Age</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Bob</td>
-<td>27</td>
-</tr>
-<tr>
-<td>Alice</td>
-<td>23</td>
-</tr>
-</tbody>
-</table>
-<h4 id="inline-markdown-within-tables">Inline Markdown within tables</h4>
-<table>
-<thead>
-<tr>
-<th>Italics</th>
-<th>Bold</th>
-<th>Code</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><em>italics</em></td>
-<td><strong>bold</strong></td>
-<td><code>code</code></td>
-</tr>
-</tbody>
-</table>
-<h2 id="code-blocks">Code Blocks</h2>
-<h4 id="code-block-with-backticks">Code block with backticks</h4>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="ln"> 1</span><span class="cp">&lt;!doctype html&gt;</span>
-<span class="ln"> 2</span><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
-<span class="ln"> 3</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
-<span class="ln"> 4</span>  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;utf-8&#34;</span><span class="p">&gt;</span>
-<span class="ln"> 5</span>  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
-<span class="ln"> 6</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
-<span class="ln"> 7</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
-<span class="ln"> 8</span>  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-<span class="ln"> 9</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
-<span class="ln">10</span><span class="c">&lt;!-- this line is extraneous 2Error from server (Forbidden): deployments.apps is forbidden: User &#34;chiptest&#34; cannot create resource &#34;deployments&#34; in API group &#34;apps&#34; in the namespace &#34;default&#34; --&gt;</span>
-<span class="ln">11</span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span>
-</code></pre></div><h4 id="code-block-indented-with-four-spaces">Code block indented with four spaces</h4>
-<pre><code>&lt;!doctype html&gt;
-&lt;html lang=&quot;en&quot;&gt;
-&lt;head&gt;
-  &lt;meta charset=&quot;utf-8&quot;&gt;
-  &lt;title&gt;Example HTML5 Document&lt;/title&gt;
-&lt;/head&gt;
-&lt;body&gt;
-  &lt;p&gt;Test&lt;/p&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+<p>打算学习MYSQL</p>
+<p>开始吧</p>
+<h1>SQL语言</h1>
+<h2>1.下载MySQL</h2>
+<p>下了两次了，没有成功，后来下的是因为之前MySQL的文件没有删净，ps只需要下载第一个文件应该就可以了哇，然后密码是fx453276，如果不是就是Fx453276 or FX453276.</p>
+<p>代码在MySQLworkbench里面写的。</p>
+<h2>2. 重要子句</h2>
+<h3>1）SELECT</h3>
+<pre><code class='language-sql' lang='sql'>USE sql_store;#大写小写都行，但最好关键字用大写
+SELECT *
+FROM CUSTOMERS #ABOVE 就是选择customers列的一个标准形式
+WHERE customers_id = 1; # 根据条件筛选
+ORDER BY first_name # sort
+# &#39;#&#39; or &#39;--&#39; would be fine
+#子句的顺序会对结果产生影响
+
+# 当想要选择某一列或者是某两列时
+SELECT 
+	first_name, 
+	last_name，
+	points， 
+	points*0.9 AS &quot;discount num&quot;
+# 返回的是人的名字，积分，甚至可以加上数学公式,还可以用AS给一个新的列加一个名字
+SELECT DISTINCT state
+FROM customers
+# 列出客户的州，并且去除重复项
 </code></pre>
-<h4 id="code-block-with-hugos-internal-highlight-shortcode">Code block with Hugo's internal highlight shortcode</h4>
-<div class="highlight"><pre class="chroma"><code class="language-html" data-lang="html"><span class="ln"> 1</span><span class="cp">&lt;!doctype html&gt;</span>
-<span class="ln"> 2</span><span class="p">&lt;</span><span class="nt">html</span> <span class="na">lang</span><span class="o">=</span><span class="s">&#34;en&#34;</span><span class="p">&gt;</span>
-<span class="ln"> 3</span><span class="p">&lt;</span><span class="nt">head</span><span class="p">&gt;</span>
-<span class="ln"> 4</span>  <span class="p">&lt;</span><span class="nt">meta</span> <span class="na">charset</span><span class="o">=</span><span class="s">&#34;utf-8&#34;</span><span class="p">&gt;</span>
-<span class="ln"> 5</span>  <span class="p">&lt;</span><span class="nt">title</span><span class="p">&gt;</span>Example HTML5 Document<span class="p">&lt;/</span><span class="nt">title</span><span class="p">&gt;</span>
-<span class="ln"> 6</span><span class="p">&lt;/</span><span class="nt">head</span><span class="p">&gt;</span>
-<span class="ln"> 7</span><span class="p">&lt;</span><span class="nt">body</span><span class="p">&gt;</span>
-<span class="ln"> 8</span>  <span class="p">&lt;</span><span class="nt">p</span><span class="p">&gt;</span>Test<span class="p">&lt;/</span><span class="nt">p</span><span class="p">&gt;</span>
-<span class="ln"> 9</span><span class="p">&lt;/</span><span class="nt">body</span><span class="p">&gt;</span>
-<span class="ln">10</span><span class="p">&lt;/</span><span class="nt">html</span><span class="p">&gt;</span></code></pre></div>
-<h2 id="list-types">List Types</h2>
-<h4 id="ordered-list">Ordered List</h4>
-<ol>
-<li>First item</li>
-<li>Second item</li>
-<li>Third item</li>
-</ol>
-<h4 id="unordered-list">Unordered List</h4>
-<ul>
-<li>List item</li>
-<li>Another item</li>
-<li>And another item</li>
-</ul>
-<h4 id="nested-list">Nested list</h4>
-<ul>
-<li>Fruit
-<ul>
-<li>Apple</li>
-<li>Orange</li>
-<li>Banana</li>
-</ul>
-</li>
-<li>Dairy
-<ul>
-<li>Milk</li>
-<li>Cheese</li>
-</ul>
-</li>
-</ul>
-<h2 id="other-elements--abbr-sub-sup-kbd-mark">Other Elements — abbr, sub, sup, kbd, mark</h2>
-<p><abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.</p>
-<p>H<sub>2</sub>O</p>
-<p>X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup></p>
-<p>Press <kbd><kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd></kbd> to end the session.</p>
-<p>Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.</p>
-<section class="footnotes" role="doc-endnotes">
-<hr>
-<ol>
-<li id="fn:1" role="doc-endnote">
-<p>The above quote is excerpted from Rob Pike's <a href="https://www.youtube.com/watch?v=PAAkCSZUG1c">talk</a> during Gopherfest, November 18, 2015. <a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
-</li>
-</ol>
-</section>
-    
-      
-    
-<h3>Translations:</h3>
-<ul>
-  
-    <li>
-      <a href="https://zedarbit.github.io/pt/post/markdown-syntax/">&#34;Português&#34; |</a>
-    </li>
-  
-</ul> 
+<h3>2）WHERE</h3>
+<pre><code class='language-sql' lang='sql'>SELECT *
+FROM customers
+WHERE points &gt; 3000
+-- 遍历每一个用户然后筛出满足的选项
+WHERE state = &#39;VA&#39;
+--筛选出符合的元组（大写小写都一样）
+WHERE birthday_date &gt; &#39;2000-01-24&#39;
+--比较普遍的日期表达方式
+</code></pre>
+<h3>3）AND/OR/NOT</h3>
+<pre><code class='language-sql' lang='sql'>SELECT *
+FROM customers
+WHERE birthday_date &gt; &#39;1990-01-01&#39; OR points &gt; 100 AND state = &#39;va&#39;
+-- 和 &amp;&amp; , ||, !  一个作用,但运算符的优先级不一样,所以要加括号： AND &gt; OR 
+WHERE NOT (birthday_date &gt; &#39;1990-01-01&#39; OR points &gt; 100)
+</code></pre>
+<h3>4）IN</h3>
+<pre><code class='language-sql' lang='sql'>WHERE state = &#39;VA&#39; OR state = &#39;GA&#39; OR state  = &#39;FL&#39;
+--筛选出一下几个州的人
+WHERE state (NOT) IN (&#39;VA&#39;, &#39;FL&#39;, &#39;GA&#39;)
+--简化运算 
+</code></pre>
+<h3>5）BETWEEN </h3>
+<pre><code class='language-sql' lang='sql'>WHERE points &gt;1000 AND points &lt; 1500
+-- equals with
+WHERE points BETWEEN 1000 AND 1500
+</code></pre>
+<h3>6) LIKE </h3>
+<pre><code class='language-sql' lang='sql'>WHERE last_name LIKE &#39;b%&#39;(&#39;B%&#39;)
+--表示摘出以b或者B开头的元素，b反正就是一个字符串 可以简单可以复杂
+WHERE last_name LIKE &#39;%b%&#39;
+--b在中间
+WHERE last_name LIKE &#39;%y&#39;
+--以y结尾
+WHERE last_name LIKE &#39;_y&#39;
+--一共只能有两个字母且最后一个是y，有几个_就代表了几个字母
+WHERE last_name LIKE &#39;b____y&#39;
+--b开头 4个_ y结尾
+</code></pre>
+<h3>7）REGEXP </h3>
+<p>which means regular expression</p>
+<pre><code class='language-sql' lang='sql'>WHERE last_name REGEXP &#39;field&#39;
+--找出含有field的人 == LIKE &#39;%field%&#39;
+WHERE last_name REGEXP &#39;^field&#39;
+--以field打头 == &#39;field%&#39;
+WHERE last_name REGEXP &#39;field$&#39;
+--以field结尾 == &#39;%field&#39;
+WHERE last_name REGEXP &#39;field|mac|rose&#39;
+--含有field或mac或rose
+WHERE last_name REGEXP &#39;[gim]e&#39;
+WHERE last_name REGEXP &#39;[a-h]e&#39;
+--含有ge/ie/me的都会被筛选出来
+--直接包含abcdefg和e
+</code></pre>
+<p><strong>正则表达式</strong>：</p>
+<p>^  begin</p>
+<p>$ end</p>
+<p>| or</p>
+<p>[asd] choose one</p>
+<p>[a-z] from to</p>
+<h3>8）IS NULL</h3>
+<pre><code class='language-sql' lang='sql'>WHERE phone IS (NOT) NULL 
+</code></pre>
+<h3>9) ORDER BY</h3>
+<pre><code class='language-sql' lang='sql'>ORDER BY first_name 
+--默认按照 条件 升序排列
+ORDER BY first_name DESC
+--降序排列
+ORDER BY quantity * unit_price DESC 
+--也可以用表达式来排序
+</code></pre>
+<h3>10）LIMIT</h3>
+<pre><code class='language-sql' lang='sql'>SELECT * 
+FROM customers 
+LIMIT 10
+--选取前10项
+LIMIT 6,3
+--跳过前6项，往后取3项
+--可用于分页的数目
+	--page 1： 1-3
+	--page 2： 4-6
+	--page 3： 7-9
+</code></pre>
+<p>可以先排序，再取前几个。</p>
 
   </article>
 <aside class="sidebar">
@@ -399,49 +359,25 @@ This article offers a sample of basic Markdown syntax that can be used in Hugo c
       <h2 class="mt-4 taxonomy" id="tags-section">Tags</h2>
       <nav class="tags_nav">
         <a href='https://zedarbit.github.io/tags/css/' class="post_tag button button_translucent">
-          CSS
+          BIT
           <span class="button_tally">1</span>
         </a>
         
         <a href='https://zedarbit.github.io/tags/emoji/' class="post_tag button button_translucent">
-          EMOJI
+          SQL
           <span class="button_tally">1</span>
         </a>
         
         <a href='https://zedarbit.github.io/tags/featured/' class="post_tag button button_translucent">
-          FEATURED
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='https://zedarbit.github.io/tags/html/' class="post_tag button button_translucent">
-          HTML
+          notes
           <span class="button_tally">1</span>
         </a>
         
         <a href='https://zedarbit.github.io/tags/idea/' class="post_tag button button_translucent">
-          IDEA
+          school work
           <span class="button_tally">1</span>
         </a>
         
-        <a href='https://zedarbit.github.io/tags/index/' class="post_tag button button_translucent">
-          INDEX
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='https://zedarbit.github.io/tags/markdown/' class="post_tag button button_translucent">
-          MARKDOWN
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='https://zedarbit.github.io/tags/themes/' class="post_tag button button_translucent">
-          THEMES
-          <span class="button_tally">1</span>
-        </a>
-        
-        <a href='https://zedarbit.github.io/tags/%E6%91%B8%E9%B1%BC/' class="post_tag button button_translucent">
-          摸鱼
-          <span class="button_tally">1</span>
-        </a>
         
         
       </nav>
